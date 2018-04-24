@@ -7,7 +7,7 @@ function init() {
 
 	var panorama, viewer, infospot1, infospot2, infospot3;
 
-	var main = document.getElementById('main');
+	var main = document.getElementById('pano');
 
 	panorama = new PANOLENS.ImagePanorama( 'aa_pano_50.jpg' );
 
@@ -47,7 +47,7 @@ function init() {
 
 	viewer = new PANOLENS.Viewer({
 		container: main,
-		cameraFov: 100,
+		cameraFov: 70,
 		autoHideInfospot: false,
 		output: 'console'
 	});
