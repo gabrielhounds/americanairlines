@@ -117,23 +117,129 @@ img {
 	//display: none;
 
 	.img {
-		position: relative;
 		top: 26px;
-		//left: 26px;
-		margin: auto;
 		width: 90%;
-		height: 70%;
-		@include background-image('img_intro.jpg', coverz, 'center center')
+		left: 50%;
+		transform: translate(-50%);
+		height: 640 / 960 * 100%;
+		@include background-image('img_intro.jpg', cover, center center);
+
+		.txt_overlay {
+			top: 1%;
+			right: 2%;
+			width: 50%;
+			height: 98%;
+			@include background-image('txt_flagship.png', contain, right);
+		}
 	}
 
 	.tagline {
+		left: 26px;
+		top: 706 / 960 * 100%;
 		width: 257 / 640 * 100%;
 		height: 107 / 960 * 100%;
+		@include background-image('tagline_intro.png', contain, center center);
+
 	}
+
+	.cta {
+		left: 26px;
+		bottom: 26px;
+		width: 214 / 640 * 100%;
+		height: 62 / 960 * 100%;
+		@include background-image('cta_explore.png', contain, center center);
+	}
+
+	.logo1 {
+		top: 30px;
+		left: 30px;
+		width: 265 / 640 * 100%;
+		height: 40 / 960 * 100%;
+		@include background-image('aa_logo1.png', contain, center center);
+	}
+
+	.logo2 {
+		top: 706 / 960 * 100%;
+		right: 30px;
+		width: 122 / 640 * 100%;
+		height: 110 / 960 * 100%;
+		@include background-image('logo2.png', contain, center center);
+	}
+
+	.logo3 {
+		bottom: 26px;
+		right: 30px;
+		width: 52 / 640 * 100%;
+		height: 52 / 960 * 100%;
+		@include background-image('logo3.png', contain, center center);
+	}
+
 }
 
+#overlay1 {
+	@include fullscreen;
+	@include background-image('img_overlay1.jpg', cover, center center);
 
+	.text {
+		bottom: 3%;
+		width: 100%;
+		height: 168px;
+		@include background-image('text_overlay1.png', contain, center center);
+	}
 
+	.close {
+		top: 10px;
+		left: 10px;
+		width: 150px;
+		height: 50px;
+		@include background-image('backBtn.png', contain, center center);
+	}
+
+}
+
+#overlay2 {
+	@include fullscreen;
+	@include background-image('img_overlay2.jpg', cover, center center);
+	//opacity: 0;
+
+	.text {
+		bottom: 3%;
+		width: 100%;
+		height: 168px;
+		@include background-image('text_overlay2.png', contain, center center);
+	}
+
+	.close {
+		top: 10px;
+		left: 10px;
+		width: 150px;
+		height: 50px;
+		@include background-image('backBtn.png', contain, center center);
+	}
+
+}
+
+#overlay3 {
+	@include fullscreen;
+	@include background-image('img_overlay3.jpg', cover, center center);
+	//opacity: 0;
+
+	.text {
+		bottom: 3%;
+		width: 100%;
+		height: 168px;
+		@include background-image('text_overlay3.png', contain, center center);
+	}
+
+	.close {
+		top: 10px;
+		left: 10px;
+		width: 150px;
+		height: 50px;
+		@include background-image('backBtn.png', contain, center center);
+	}
+
+}
 
 
 

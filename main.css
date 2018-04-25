@@ -39,18 +39,175 @@ img {
 }
 
 #intro .img {
-  position: relative;
   top: 26px;
-  margin: auto;
   width: 90%;
-  height: 70%;
+  left: 50%;
+  transform: translate(-50%);
+  height: 66.66667%;
   background-image: url(img_intro.jpg);
-  background-size: coverz;
-  background-position: "center center";
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#intro .img .txt_overlay {
+  top: 1%;
+  right: 2%;
+  width: 50%;
+  height: 98%;
+  background-image: url(txt_flagship.png);
+  background-size: contain;
+  background-position: right;
   background-repeat: no-repeat;
 }
 
 #intro .tagline {
+  left: 26px;
+  top: 73.54167%;
   width: 40.15625%;
   height: 11.14583%;
+  background-image: url(tagline_intro.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#intro .cta {
+  left: 26px;
+  bottom: 26px;
+  width: 33.4375%;
+  height: 6.45833%;
+  background-image: url(cta_explore.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#intro .logo1 {
+  top: 30px;
+  left: 30px;
+  width: 41.40625%;
+  height: 4.16667%;
+  background-image: url(aa_logo1.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#intro .logo2 {
+  top: 73.54167%;
+  right: 30px;
+  width: 19.0625%;
+  height: 11.45833%;
+  background-image: url(logo2.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#intro .logo3 {
+  bottom: 26px;
+  right: 30px;
+  width: 8.125%;
+  height: 5.41667%;
+  background-image: url(logo3.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#overlay1 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img_overlay1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#overlay1 .text {
+  bottom: 3%;
+  width: 100%;
+  height: 168px;
+  background-image: url(text_overlay1.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#overlay1 .close {
+  top: 10px;
+  left: 10px;
+  width: 150px;
+  height: 50px;
+  background-image: url(backBtn.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#overlay2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img_overlay2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#overlay2 .text {
+  bottom: 3%;
+  width: 100%;
+  height: 168px;
+  background-image: url(text_overlay2.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#overlay2 .close {
+  top: 10px;
+  left: 10px;
+  width: 150px;
+  height: 50px;
+  background-image: url(backBtn.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#overlay3 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img_overlay3.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#overlay3 .text {
+  bottom: 3%;
+  width: 100%;
+  height: 168px;
+  background-image: url(text_overlay3.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#overlay3 .close {
+  top: 10px;
+  left: 10px;
+  width: 150px;
+  height: 50px;
+  background-image: url(backBtn.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
